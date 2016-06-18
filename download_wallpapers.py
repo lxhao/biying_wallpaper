@@ -1,9 +1,5 @@
 #!/usr/bin/python
 #coding=utf-8
-
-import sys
-sys.path.append("/usr/lib/python2.7")
-
 import urllib2
 import xml.etree.ElementTree as ET
 import os
@@ -17,7 +13,7 @@ def download_picture():
 	if not op.exists(basedir):
 		os.mkdir(basedir)
 	validpath = ''
-        #只下载最新的，如果改为降-1改为16，可以下载最近17天的照片
+        #只下载最新的，如果改第一个-1为16，可以下载最近17天的照片
         #默认只下载明天的壁纸
 	for i in range(-1, -2, -1):
                 json_url = 'http://cn.bing.com/HPImageArchive.aspx?format=js&n=1&idx=%d' % (i)
