@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #coding=utf-8
+
 import urllib2
 import xml.etree.ElementTree as ET
 import os
@@ -7,6 +8,7 @@ import os.path as op
 import socket
 import commands
 import json
+import sys
 def download_picture():
 	basedir = op.join(op.abspath(op.dirname(__file__)), 'wallpapers')
         print "wallpapers will be storaged in" + basedir
