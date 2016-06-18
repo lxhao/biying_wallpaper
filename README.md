@@ -10,3 +10,6 @@ python change_wallpaper.py
 给个链接 http://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/crontab.html
 慢慢折腾
 
+这是原作者的链接，我修改了部分代码，这个只能下载昨天的壁纸
+http://www.it610.com/article/4010588.htm
+
